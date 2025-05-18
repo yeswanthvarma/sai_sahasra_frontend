@@ -12,7 +12,7 @@ const Routes: React.FC = () => {
     { name: "Home", path: "/" },
     { name: "Projects", path: "/projects" },
     { name: "About Us", path: "#" },
-    { name: "Contact Us", path: "/contactus" },
+    { name: "Contact Us", path: "/contactUs" },
   ];
 
   const projectSubRoutes = [
