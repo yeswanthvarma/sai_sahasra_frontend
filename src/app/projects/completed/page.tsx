@@ -1,4 +1,4 @@
-import ProjectCard from "../components/ProjectCard";
+import ProjectCard from "@/app/components/ProjectCard";
 
 export default function Projects() {
   const projects = [
@@ -56,11 +56,11 @@ export default function Projects() {
     <div className="min-h-screen flex flex-col items-center pt-20">
       {/* Header */}
       <div className="mb-4">
-        <h1 className="text-3xl md:text-4xl font-bold text-[#2E3192] ">On Going Projects</h1>
+        <h1 className="text-3xl md:text-4xl font-bold text-[#2E3192] ">Completed Projects</h1>
       </div>
 
       {/* Project Cards */}
-      <div className="grid grid-cols-2 lg:grid-cols-3  xl:grid-cols-4  gap-2 md:gap-4 lg:gap-8">
+      <div className="grid grid-cols-2 lg:grid-cols-3  xl:grid-cols-4  gap-2 md:gap-8 ">
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
@@ -69,6 +69,11 @@ export default function Projects() {
             imageUrl={project.imageUrl}
           />
         ))}
+      </div>
+
+      {/* NavBar */}
+      <div className="absolute bottom-0 w-full">
+        {/* Assuming NavBar is already implemented */}
       </div>
     </div>
   );

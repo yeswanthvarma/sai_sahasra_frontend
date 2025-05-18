@@ -12,15 +12,15 @@ export default function ProjectCard({
   imageUrl,
 }: ProjectCardProps) {
   return (
-    <div>
-      <div className="bg-transparent text-center py-2">
-        <h3 className="text-lg font-bold text-blue-700">{title}</h3>
+    <div className="mt-8">
+      <div className="bg-transparent text-center">
+        <h3 className="text-lg font-semibold text-[#2E3192]">{title}</h3>
       </div>
-      <div className="bg-white rounded-2xl shadow-lg overflow-hidden w-60 md:w-65 ">
+      <div className="bg-white rounded-2xl shadow-lg overflow-hidden w-40  md:w-65">
         
 
         {/* Image Section */}
-        <div className="relative w-full h-72 border-2 bg-blue-500 border-blue-500">
+        <div className="relative w-full h-40 md:h-72 md:w-full border-2 bg-[#2E3192] border-[#2E3192]">
           <Image
             src={imageUrl}
             alt={title}
@@ -31,8 +31,8 @@ export default function ProjectCard({
         </div>
 
         {/* Description Section */}
-        <div className="p-4 bg-blue-500">
-          <p className="text-sm text-white">{description}</p>
+        <div className="p-2 md:p-4 bg-[#2E3192] h-full">
+            <p className="text-[0.5rem] sm:text-sm text-white">{description}</p>
         </div>
       </div>
     </div>
