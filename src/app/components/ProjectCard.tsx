@@ -14,7 +14,7 @@ export default function ProjectCard({
   return (
     <div className="mt-8">
       <div className="bg-transparent text-center">
-        <h3 className="text-lg font-semibold text-[#2E3192]">{title}</h3>
+        <h3 className="text-sm md:text-lg font-semibold text-[#2E3192]">{title}</h3>
       </div>
       <div className="bg-white rounded-2xl shadow-lg overflow-hidden w-40  md:w-65">
         

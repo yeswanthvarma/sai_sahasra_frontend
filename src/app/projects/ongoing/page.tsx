@@ -8,7 +8,7 @@ export default function Projects() {
   const projects = [
     {
       id: "hyd",
-      title: "HYD",
+      title: "Sai Golden Avenue",
       description:
         "Experience luxury and comfort in this beautifully designed 3-bedroom apartment located in the heart of the city. Featuring spacious interiors, a modular kitchen, and a private balcony with stunning views.",
       imageUrls: [
@@ -18,7 +18,7 @@ export default function Projects() {
     },
     {
       id: "label1",
-      title: "Label",
+      title: "Ajay Classic",
       description:
         "Experience luxury and comfort in this beautifully designed 3-bedroom apartment located in the heart of the city. Featuring spacious interiors, a modular kitchen, and a private balcony with stunning views.",
       imageUrls: [
@@ -28,7 +28,7 @@ export default function Projects() {
     },
     {
       id: "label2",
-      title: "Label",
+      title: "Narayana Raju Towers",
       description:
         "Experience luxury and comfort in this beautifully designed 3-bedroom apartment located in the heart of the city. Featuring spacious interiors, a modular kitchen, and a private balcony with stunning views.",
       imageUrls: [
@@ -38,7 +38,7 @@ export default function Projects() {
     },
     {
       id: "label3",
-      title: "Label",
+      title: "Srinivasam Classic",
       description:
         "Experience luxury and comfort in this beautifully designed 3-bedroom apartment located in the heart of the city. Featuring spacious interiors, a modular kitchen, and a private balcony with stunning views.",
       imageUrls: [
@@ -48,7 +48,7 @@ export default function Projects() {
     },
     {
       id: "label4",
-      title: "Label",
+      title: "Srinivasam Classic",
       description:
         "Experience luxury and comfort in this beautifully designed 3-bedroom apartment located in the heart of the city. Featuring spacious interiors, a modular kitchen, and a private balcony with stunning views.",
       imageUrls: [
@@ -58,7 +58,7 @@ export default function Projects() {
     },
     {
       id: "label5",
-      title: "Label",
+      title: "Narayana Raju Towers",
       description:
         "Experience luxury and comfort in this beautifully designed 3-bedroom apartment located in the heart of the city. Featuring spacious interiors, a modular kitchen, and a private balcony with stunning views.",
       imageUrls: [
@@ -68,7 +68,7 @@ export default function Projects() {
     },
     {
       id: "label6",
-      title: "Label",
+      title: "Ajay Classic",
       description:
         "Experience luxury and comfort in this beautifully designed 3-bedroom apartment located in the heart of the city. Featuring spacious interiors, a modular kitchen, and a private balcony with stunning views.",
       imageUrls: [
@@ -78,7 +78,7 @@ export default function Projects() {
     },
     {
       id: "label7",
-      title: "Label",
+      title: "Sai Golden Avenue",
       description:
         "Experience luxury and comfort in this beautifully designed 3-bedroom apartment located in the heart of the city. Featuring spacious interiors, a modular kitchen, and a private balcony with stunning views.",
       imageUrls: [
@@ -97,9 +97,9 @@ export default function Projects() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center pt-20">
+    <div className="min-h-screen flex flex-col items-center py-12">
       {/* Header */}
-      <div className="mb-4">
+      <div className="mb-8">
         <h1 className="text-3xl md:text-4xl font-bold text-[#2E3192] ">On Going Projects</h1>
       </div>
 

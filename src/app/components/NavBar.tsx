@@ -11,7 +11,7 @@ const Routes: React.FC = () => {
   const routes = [
     { name: "Home", path: "/" },
     { name: "Projects", path: "/projects" },
-    { name: "About Us", path: "/about" },
+    { name: "About Us", path: "#" },
     { name: "Contact Us", path: "/contactus" },
   ];
 
