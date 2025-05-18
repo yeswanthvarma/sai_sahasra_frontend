@@ -49,41 +49,52 @@ export default function ContactUs() {
 
           {/* Social Media Icons */}
           <div className="absolute bottom-4 left-4 flex space-x-4">
-  <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-    <div className="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center">
-      <Image
-        src="/images/contact-us/twitter.png"
-        alt="Twitter"
-        width={20}
-        height={20}
-        className="cursor-pointer"
-      />
-    </div>
-  </a>
-  <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
-    <div className="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center">
-      <Image
-        src="/images/contact-us/instagram.png"
-        alt="Instagram"
-        width={20}
-        height={20}
-        className="cursor-pointer"
-      />
-    </div>
-  </a>
-  <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">
-    <div className="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center">
-      <Image
-        src="/images/contact-us/facebook.png"
-        alt="Facebook"
-        width={20}
-        height={20}
-        className="cursor-pointer"
-      />
-    </div>
-  </a>
-</div>
-
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center">
+                <Image
+                  src="/images/contact-us/twitter.png"
+                  alt="Twitter"
+                  width={20}
+                  height={20}
+                  className="cursor-pointer"
+                />
+              </div>
+            </a>
+            <a
+              href="https://instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center">
+                <Image
+                  src="/images/contact-us/instagram.png"
+                  alt="Instagram"
+                  width={20}
+                  height={20}
+                  className="cursor-pointer"
+                />
+              </div>
+            </a>
+            <a
+              href="https://facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center">
+                <Image
+                  src="/images/contact-us/facebook.png"
+                  alt="Facebook"
+                  width={20}
+                  height={20}
+                  className="cursor-pointer"
+                />
+              </div>
+            </a>
+          </div>
         </div>
 
         {/* Contact Form Section */}
